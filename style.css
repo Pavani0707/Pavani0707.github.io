@@ -7,4 +7,5 @@ table, th, td {
 }
 th, td {
     background-color: #96D4D4;
+    padding: 15px;
  }
