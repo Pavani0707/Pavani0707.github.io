@@ -1,20 +1,23 @@
-.card-image{
-    width: 100%;
- }
+
  
 .name{
     margin-top: 0;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 0;
 }
 
 .user_designation{
-    font-size: 30px;
+    font-size: 25px;
     font-style: italic;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+/*
+.card-image{
+    width: 100%;
+ }
 
 .toggle_button{
     margin-top: 10px;
@@ -40,3 +43,4 @@
     box-shadow: 0 20px 34px 0 rgbas(0, 0, 0, 0.2);
 
 }
+*/
