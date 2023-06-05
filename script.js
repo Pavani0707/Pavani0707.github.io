@@ -17,5 +17,5 @@ var changeMyPic = function(){
     }
     document.getElementById("myimage").src= displayData.image;
     document.getElementById("myname").innerHTML = displayData.name;
-    document.getElementById("mydesignattion").innerHTML= displayData.designation;
+    document.getElementById("mydesignation").innerHTML= displayData.designation;
 }
