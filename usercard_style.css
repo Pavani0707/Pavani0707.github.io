@@ -29,19 +29,17 @@
     margin-bottom: 0;
 }
 
-
+.toggle{
+    color: white;
+    background-color: black;
+}
 
 /*
 .card-image{
     width: 100%;
  }
 
-.toggle_button{
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-    background-color: black;
-}
+
 
 
 
