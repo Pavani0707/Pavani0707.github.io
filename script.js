@@ -16,6 +16,6 @@ var changeMyPic = function(){
         isData1 = true;
     }
     document.getElementById("myimage").src= displayData.image;
-    //document.getElementById("myname").value = displayData.name;
-    //document.getElementById("mydesignattion").value= displayData.designation;
+    document.getElementById("myname").innerHTML = displayData.name;
+    document.getElementById("mydesignattion").innerHTML= displayData.designation;
 }
