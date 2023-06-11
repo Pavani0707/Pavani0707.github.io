@@ -120,9 +120,7 @@ function weatherDetails(info){
 
         
         weatherPart.querySelector(".temp .numb").innerText = Math.floor(temp);
-
         weatherPart.querySelector(".weather").innerText = description;
-
         weatherPart.querySelector(".location span").innerText = `${city}, ${country}`;
 
         weatherPart.querySelector(".temp .numb-2").innerText = Math.floor(feels_like);
