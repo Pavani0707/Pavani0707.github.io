@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+
 body{
   display: flex;
   align-items: center;
@@ -12,10 +13,12 @@ body{
   min-height: 100vh;
   background: #005063;
 }
+
 ::selection{
   color: #fff;
   background: #43AFFC;
 }
+
 .wrapper{
   width: 400px;
   background: #fff;
@@ -31,10 +34,12 @@ body{
   align-items: center;
   border-bottom: 1px solid #ccc;
 }
+
 header i{
   cursor: pointer;
   margin-right: 8px;
 }
+
 .wrapper.active header i{
   margin-left: 5px;
   font-size: 30px;
@@ -121,7 +126,7 @@ header i{
 .wrapper.active .weather-part{
   display: flex;
 }
-.weather-part img{
+.weather-part{
   max-width: 125px;
 }
 .weather-part .temp{
@@ -191,6 +196,7 @@ header i{
   font-size: 14px;
   margin-top: -6px;
 }
+
 .humidity i{
   font-size: 37px;
 }
