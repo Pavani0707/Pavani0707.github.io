@@ -9,7 +9,6 @@ body{
   justify-content: center;
   min-height: 100vh;
   background: #005063;
-
   align-items: center;
 }
 
@@ -17,17 +16,13 @@ body{
   width: 400px;
   background: #fff;
   border-radius: 7px;
-
-  box-shadow: 7px 7px 20px rgba(14, 11, 11, 0.05);
 }
 
 .wrapper header{
-  display: flex;
   font-size: 21px;
   color: #43AFFC;
   padding: 16px 15px;
   border-bottom: 1px solid #ccc;
-  
 }
 
 .wrapper .input-part{
@@ -90,6 +85,7 @@ body{
   background: #43AFFC;
   transition: 0.3s;
 }
+
 .input-part button:hover{
   background: #1d9ffc;
 }
@@ -111,7 +107,6 @@ body{
 }
 
 .weather-part .temp{
-  display: flex;
   font-weight: 500;
   font-size: 72px;
 }
@@ -120,6 +115,7 @@ body{
   font-size: 40px;
   margin: 10px 5px 0 0;
 }
+
 .weather-part .weather{
   font-size: 21px;
 }
